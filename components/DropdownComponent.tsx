@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {Dropdown} from 'react-native-element-dropdown';
 import {DropdownComponentTypes} from '../types/common';
+import {useTranslation} from 'react-i18next';
 
 const DropdownComponent: React.FC<DropdownComponentTypes> = ({
   data,
@@ -10,6 +11,7 @@ const DropdownComponent: React.FC<DropdownComponentTypes> = ({
   setValue,
 }) => {
   const [isFocus, setIsFocus] = useState(false);
+  const {t} = useTranslation();
 
   return (
     <View style={styles.container}>
@@ -23,7 +25,7 @@ const DropdownComponent: React.FC<DropdownComponentTypes> = ({
         maxHeight={300}
         labelField="name"
         valueField="id"
-        placeholder={!isFocus ? 'Select item' : '...'}
+        placeholder={!isFocus ? t('select') : '...'}
         value={value}
         onFocus={() => setIsFocus(true)}
         onBlur={() => setIsFocus(false)}

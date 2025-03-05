@@ -13,6 +13,7 @@
   "yes": "Yes",
   "no": "No",
   "hadPaid": "Had Paid?",
+  "select": "Select",
   "errors": {
     "alphabetic_only": "Only alphabetic characters are allowed",
     "name_required": "Name is required",

@@ -7,6 +7,7 @@ export type FormData = {
   phone: string;
   birthDate?: date;
   gender?: string;
+  hadPaid?: string;
 };
 
 export type InputProps = {
