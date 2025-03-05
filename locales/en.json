@@ -1,0 +1,25 @@
+{
+  "welcome": "english",
+  "change_language": "change language",
+  "name": "Name",
+  "surname": "Surname",
+  "email": "Email",
+  "submit": "Submit",
+  "phone": "Phone",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "birthDate": "Birth Date",
+  "yes": "Yes",
+  "no": "No",
+  "hadPaid": "Had Paid?",
+  "errors": {
+    "alphabetic_only": "Only alphabetic characters are allowed",
+    "name_required": "Name is required",
+    "surname_required": "Surname is required",
+    "invalid_email": "Invalid email",
+    "email_required": "Email is required",
+    "phone_numbers_only": "Phone number must contain only numbers",
+    "phone_required": "Phone number is required"
+  }
+}
