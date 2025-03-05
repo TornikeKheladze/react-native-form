@@ -44,7 +44,13 @@ const Input: React.FC<InputProps> = ({
 };
 
 const styles = StyleSheet.create({
-  input: {height: 40, borderColor: 'gray', borderWidth: 0.5, borderRadius: 8},
+  input: {
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 0.5,
+    borderRadius: 8,
+    paddingLeft: 10,
+  },
   error: {color: 'red'},
 });
 

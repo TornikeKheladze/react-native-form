@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
     borderColor: 'gray',
     borderWidth: 0.5,
     borderRadius: 8,
+    paddingLeft: 10,
   },
   icon: {
     marginRight: 5,
